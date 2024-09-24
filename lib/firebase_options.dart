@@ -46,7 +46,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '177442623900',
     projectId: 'angko-6a438',
     authDomain: 'angko-6a438.firebaseapp.com',
-    databaseURL: 'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'angko-6a438.appspot.com',
     measurementId: 'G-S21PDV0Q2J',
   );
@@ -56,7 +57,8 @@ class DefaultFirebaseOptions {
     appId: '1:177442623900:android:20ceb830043de92f9c7859',
     messagingSenderId: '177442623900',
     projectId: 'angko-6a438',
-    databaseURL: 'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'angko-6a438.appspot.com',
   );
 
@@ -65,7 +67,8 @@ class DefaultFirebaseOptions {
     appId: '1:177442623900:ios:0df49e135d249ca59c7859',
     messagingSenderId: '177442623900',
     projectId: 'angko-6a438',
-    databaseURL: 'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'angko-6a438.appspot.com',
     iosBundleId: 'com.example.angko',
   );
@@ -75,7 +78,8 @@ class DefaultFirebaseOptions {
     appId: '1:177442623900:ios:0df49e135d249ca59c7859',
     messagingSenderId: '177442623900',
     projectId: 'angko-6a438',
-    databaseURL: 'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'angko-6a438.appspot.com',
     iosBundleId: 'com.example.angko',
   );
@@ -86,7 +90,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '177442623900',
     projectId: 'angko-6a438',
     authDomain: 'angko-6a438.firebaseapp.com',
-    databaseURL: 'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'angko-6a438.appspot.com',
     measurementId: 'G-T1LQ5PT21X',
   );

@@ -53,52 +53,52 @@ class _ScoreboardState extends State<Scoreboard> {
       ),
       body: filteredScores.isEmpty
           ? const Center(
-        child: Text(
-          'No high scores yet!',
-          style: TextStyle(fontSize: 18),
-        ),
-      )
+              child: Text(
+                'No high scores yet!',
+                style: TextStyle(fontSize: 18),
+              ),
+            )
           : ListView.builder(
-        itemCount: filteredScores.length,
-        itemBuilder: (context, index) {
-          final ScoreEntry entry = filteredScores[index];
-          return ListTile(
-            leading: Text(
-              '#${index + 1}',
-              style: const TextStyle(
-                  fontSize: 18, fontWeight: FontWeight.bold),
+              itemCount: filteredScores.length,
+              itemBuilder: (context, index) {
+                final ScoreEntry entry = filteredScores[index];
+                return ListTile(
+                  leading: Text(
+                    '#${index + 1}',
+                    style: const TextStyle(
+                        fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  title: Text(
+                    entry.username,
+                    style: const TextStyle(
+                        fontSize: 16, fontWeight: FontWeight.w500),
+                  ),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        DateFormat("dd/MM/yyyy 'Pukul' HH:mm:ss", 'id_ID')
+                            .format(entry.timestamp.toLocal()),
+                        style: const TextStyle(fontSize: 14),
+                      ),
+                      Text(
+                        'Input Count: ${entry.inputCount}', // Menampilkan jumlah input
+                        style: const TextStyle(fontSize: 14),
+                      ),
+                      Text(
+                        'Elapsed Time: ${entry.elapsedTime} seconds', // Menampilkan waktu yang dihabiskan
+                        style: const TextStyle(fontSize: 14),
+                      ),
+                    ],
+                  ),
+                  trailing: Text(
+                    '${entry.score} pts',
+                    style: const TextStyle(
+                        fontSize: 16, fontWeight: FontWeight.bold),
+                  ),
+                );
+              },
             ),
-            title: Text(
-              entry.username,
-              style: const TextStyle(
-                  fontSize: 16, fontWeight: FontWeight.w500),
-            ),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  DateFormat("dd/MM/yyyy 'Pukul' HH:mm:ss", 'id_ID')
-                      .format(entry.timestamp.toLocal()),
-                  style: const TextStyle(fontSize: 14),
-                ),
-                Text(
-                  'Input Count: ${entry.inputCount}', // Menampilkan jumlah input
-                  style: const TextStyle(fontSize: 14),
-                ),
-                Text(
-                  'Elapsed Time: ${entry.elapsedTime} seconds', // Menampilkan waktu yang dihabiskan
-                  style: const TextStyle(fontSize: 14),
-                ),
-              ],
-            ),
-            trailing: Text(
-              '${entry.score} pts',
-              style: const TextStyle(
-                  fontSize: 16, fontWeight: FontWeight.bold),
-            ),
-          );
-        },
-      ),
     );
   }
 }

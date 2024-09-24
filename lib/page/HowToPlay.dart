@@ -35,15 +35,15 @@ class HowToPlay extends StatelessWidget {
               SizedBox(height: 8),
               Text(
                 '1. Pilih jumlah digit (4, 5, atau 6).\n'
-                    '2. Masukkan tebakan kamu menggunakan keypad.\n'
-                    '3. Setelah memasukkan tebakan, tekan tombol "Enter".\n'
-                    '4. Kamu akan menerima umpan balik yang menunjukkan:\n'
-                    '   - Hijau (🟩): Digit yang benar di posisi yang benar\n'
-                    '   - Kuning (🟨): Digit yang benar di posisi yang salah\n'
-                    '   - Abu-abu (⬜): Digit yang salah\n'
-                    '5. Kamu memiliki jumlah percobaan yang terbatas untuk menebak angka yang benar.\n'
-                    '6. Jika kamu menebak dengan benar, kamu bisa memasukkan nama untuk menyimpan skor kamu.\n'
-                    '7. Selamat bermain!',
+                '2. Masukkan tebakan kamu menggunakan keypad.\n'
+                '3. Setelah memasukkan tebakan, tekan tombol "Enter".\n'
+                '4. Kamu akan menerima umpan balik yang menunjukkan:\n'
+                '   - Hijau (🟩): Digit yang benar di posisi yang benar\n'
+                '   - Kuning (🟨): Digit yang benar di posisi yang salah\n'
+                '   - Abu-abu (⬜): Digit yang salah\n'
+                '5. Kamu memiliki jumlah percobaan yang terbatas untuk menebak angka yang benar.\n'
+                '6. Jika kamu menebak dengan benar, kamu bisa memasukkan nama untuk menyimpan skor kamu.\n'
+                '7. Selamat bermain!',
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.justify,
               ),

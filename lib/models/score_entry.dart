@@ -16,20 +16,20 @@ class ScoreEntry {
   });
 
   Map<String, dynamic> toJson() => {
-    'username': username,
-    'timestamp': timestamp.toIso8601String(),
-    'score': score,
-    'digitLength': digitLength,
-    'inputCount': inputCount,
-    'elapsedTime': elapsedTime,
-  };
+        'username': username,
+        'timestamp': timestamp.toIso8601String(),
+        'score': score,
+        'digitLength': digitLength,
+        'inputCount': inputCount,
+        'elapsedTime': elapsedTime,
+      };
 
   factory ScoreEntry.fromJson(Map<String, dynamic> json) => ScoreEntry(
-    username: json['username'] as String,
-    timestamp: DateTime.parse(json['timestamp'] as String),
-    score: json['score'] as int,
-    digitLength: json['digitLength'] as int,
-    inputCount: json['inputCount'] as int,
-    elapsedTime: json['elapsedTime'] as int,
-  );
+        username: json['username'] as String,
+        timestamp: DateTime.parse(json['timestamp'] as String),
+        score: json['score'] as int,
+        digitLength: json['digitLength'] as int,
+        inputCount: json['inputCount'] as int,
+        elapsedTime: json['elapsedTime'] as int,
+      );
 }
