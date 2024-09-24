@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "177442623900",
+    "firebase_url": "https://angko-6a438-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "angko-6a438",
+    "storage_bucket": "angko-6a438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177442623900:android:20ceb830043de92f9c7859",
+        "android_client_info": {
+          "package_name": "com.example.angko"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC105gqJ-33j12xTNTjhiu0LsbqR-28A28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
